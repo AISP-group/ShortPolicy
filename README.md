@@ -1,6 +1,4 @@
 
-
-
 # 📚 Data
 You could generate demonstrations by yourself using our provided expert policies.  Generated demonstrations are under `$YOUR_REPO_PATH/FlowPolicy/data/`.
 
@@ -17,13 +15,13 @@ The results are logged by `wandb`, so you need to `wandb login` first to see the
 
 2. Train and evaluate a policy with behavior cloning. For example:
     ```bash
-    bash scripts/train_policy.sh flowpolicy adroit_hammer 0129 0 0
+    bash scripts/train_policy.sh flowpolicy adroit_hammer Short 0 0
     ```
     This will train a flowpolicy policy on the `hammer` task in Adroit environment using point cloud modality.
 
 3. Evaluate a saved policy or use it for inference. Please set  For example:
     ```bash
-    bash scripts/eval_policy.sh flowpolicy adroit_hammer 0129 0 0
+    bash scripts/eval_policy.sh flowpolicy adroit_hammer Short 0 0
     ```
     This will evaluate the saved flowpolicy policy you just trained. **Note: the evaluation script is only provided for deployment/inference. For benchmarking, please use the results logged in wandb during training.**
 
