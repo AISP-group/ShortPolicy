@@ -1,7 +1,5 @@
 
-# 💻 Installation
 
-See [install.md](install.md) for installation instructions. 
 
 # 📚 Data
 You could generate demonstrations by yourself using our provided expert policies.  Generated demonstrations are under `$YOUR_REPO_PATH/FlowPolicy/data/`.
