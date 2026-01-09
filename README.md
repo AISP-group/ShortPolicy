@@ -23,12 +23,4 @@ The results are logged by `wandb`, so you need to `wandb login` first to see the
     ```bash
     bash scripts/eval_policy.sh flowpolicy adroit_hammer Short 0 0
     ```
-    This will evaluate the saved flowpolicy policy you just trained. **Note: the evaluation script is only provided for deployment/inference. For benchmarking, please use the results logged in wandb during training.**
-
-
-# 🏷️ License
-This repository is released under the MIT license.
-
-# 🙏 Acknowledgement
-
-Our code is built upon [3D Diffusion Policy](https://github.com/YanjieZe/3D-Diffusion-Policy), [Consistency_FM](https://github.com/YangLing0818/consistency_flow_matching),  [VRL3](https://github.com/microsoft/VRL3), and [Metaworld](https://github.com/Farama-Foundation/Metaworld). We would like to thank the authors for their excellent works.
+     **Note: the evaluation script is only provided for deployment/inference. For benchmarking, please use the results logged in wandb during training.**
